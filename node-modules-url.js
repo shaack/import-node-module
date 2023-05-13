@@ -1,6 +1,6 @@
 /**
  * Author and copyright: Stefan Haack (https://shaack.com)
- * Repository: https://github.com/shaack/node-module-import
+ * Repository: https://github.com/shaack/node-modules-url
  * License: MIT, see file 'LICENSE'
  */
 if (!window.nodeModulesUrl) {
