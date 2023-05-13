@@ -8,4 +8,5 @@ if (!window.importNodeModule) {
     window.importNodeModule = async function (path) {
         return await import(nodeModuleUrl + path)
     }
+    window.require = window.importNodeModule
 }
