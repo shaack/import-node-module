@@ -2,7 +2,7 @@
   "name": "import-node-modules",
   "version": "1.0.5",
   "type": "module",
-  "description": "",
+  "description": "Helper to set a global `node_modules` variable to include from the /node_modules path in vanilla ES6 modules.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
