@@ -4,5 +4,6 @@
  * License: MIT, see file 'LICENSE'
  */
 if (!window.nodeModulesUrl) {
-    window.nodeModulesUrl = import.meta.url.substring(0, import.meta.url.lastIndexOf("/node_modules/") + 14)
+    window.nodeModulesUrl = import.meta.url.substring(0, import.meta.url.lastIndexOf("/node_modules/") + 13)
+    window.node_modules = window.nodeModulesUrl
 }
